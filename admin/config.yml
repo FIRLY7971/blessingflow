@@ -13,10 +13,4 @@ collections:
         name: "site"
         file: "_data/site.yml"
         fields:
-          - label: "Footer title"
-            name: "footer_title"
-            widget: "object"
-            fields:
-              - label: "Title"
-                name: "title"
-                widget: "string"
+          
