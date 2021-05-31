@@ -17,6 +17,6 @@ collections:
             name: "footer_title"
             widget: "object"
             fields:
-              - label: "Span"
-                name: "span"
+              - label: "Title"
+                name: "title"
                 widget: "string"
