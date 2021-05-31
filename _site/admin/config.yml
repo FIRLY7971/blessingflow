@@ -6,11 +6,26 @@ backend:
 media_folder: "images"
 
 collections:
-  - name: "website-settings"
-    label: "Website settings"
+  - label: "Website-settings"
+    name: "website settings"
     files:
-      - label: "Website settings"
-        name: "site"
-        file: "_data/site.yml"
+      - label: "Blog posts"
+        name: "blog-posts"
+        file: "_config.yml"
+        folder: "_posts"
+        create: true
+        slug: "{{year}}--{{month}}--{{day}}--{{slug}}"
         fields:
-          
+          - label: "Layout"
+            name: "layout"
+            widget: "hidden"
+            default: "post"
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Description"
+            name: "desc"
+            widget: "string"
+          - label: "Thumbnail image"
+            name: "thumbnail"
+            widget: "image"
