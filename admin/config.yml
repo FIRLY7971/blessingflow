@@ -13,4 +13,25 @@ collections:
         name: "site"
         file: "_data/site.yml"
         fields:
-          
+          - label: "Posts"
+            name: "posts"
+            folder: "_posts"
+            create: true
+            fields:
+              - label: "Layout"
+                name: "layout"
+                widget: "hidden"
+                default: "post"
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Description"
+                name: "desc"
+                widget: "string"
+              - label: "Categories"
+                name: "cat"
+                widget: "string"
+              - label: "Thumbnail image"
+                name: "thumbnail"
+                widget: "image"
+                
