@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: FIRLY7971/blessingflow
+
+media_folder: "images"
+
+collections:
+  - name: "website-settings"
+    label: "Website settings"
+    files:
+      - label: "Website settings"
+        name: "site"
+        file: "_data/site.yml"
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
