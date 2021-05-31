@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Website settings"
         name: "site"
-        file: "_data/site.yml"
+        file: "_config.yml"
         fields:
           - label: "Posts"
             name: "posts"
@@ -34,4 +34,3 @@ collections:
               - label: "Thumbnail image"
                 name: "thumbnail"
                 widget: "image"
-                
