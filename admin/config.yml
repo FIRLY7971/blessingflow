@@ -1,0 +1,5 @@
+backend:
+  name: github
+  repo: FIRLY7971/blessingflow
+
+media_folder: "images"
