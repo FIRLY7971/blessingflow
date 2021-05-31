@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Website settings"
         name: "site"
-        file: "_config.yml"
+        file: "/_config.yml"
         fields:
           - label: "Posts"
             name: "posts"
